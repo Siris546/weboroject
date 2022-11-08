@@ -1,28 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=9, initial-scale=1.0">
-    <title>Burger House</title>
-</head><link rel="stylesheet" href="
-/css/index.css">
-<body>
-    <nav class="navbar">
-        <ul class="navlist">
-            <div class="logo">
-                <img src="/index.jpeg" alt="Logo">
-
-            </div>
-            <li> <a href="#home" class="">home</a></li>
-            <li><a href="#about us" class="">about us</a></li>
-            <li><a href="#services" class="">services</a></li>
-            <li><a href="#contact us" class="">contact us</a></li>
-        </ul>
-        <div class="rightnav">
-        <label for="searchbox">Search:</label>
-        <input type="text" id="searchbox" name="searchbox">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iEducate - Better education for better future.</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo"><img src="img/book.jpg" alt="a logo of book" /></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+      <div class="rightNav v-class-resp">
+        <input type="text" name="search" id="search" placeholder="search..." />
+        <button class="btn btn-sm">Search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </nav>
-</body>
+
+    <section class="background firstSection" id="about">
+      <div class="box-main">
+        <div class="firshHalf">
+          <p class="text-big">The future of your educaton is in out hands.</p>
+          <p class="text-small">
+            if you want to make your future better then you must go through
+            here. In this world of 7 billion people we need to educate at least
+            75% of population. This is the education platform that sets your
+            education plan ad you also get free career counselling
+          </p>
+          <div class="buttons">
+            <button type="button" class="btn btn-lg">Get Started</button>
+            <button type="button" class="btn btn-lg">Learn More</button>
+          </div>
+        </div>
+        <div class="secondHalf">
+          <img id="sectionImg" src="img/book.jpg" alt="The picture of a book" />
+        </div>
+      </div>
+    </section>
+    <section class="sections" id="services">
+      <div class="paras">
+        <div class="paragraph">
+          <p class="text-big">The end of your search for education is here.</p>
+          <p class="text-small">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sequi
+            eius quae cumque quisquam reiciendis nostrum voluptatibus vitae
+            porro nisi ad dolor adipisci. Similique earum quis reiciendis itaque
+            nam quaerat sit rerum distinctio eum necessitatibus recusandae,
+            esse, at ad sapiente alias doloremque eius quas voluptate impedit.
+            Rem, totam aperiam ea voluptatum doloribus voluptatem fugiat.
+            Commodi.
+          </p>
+        </div>
+        <img src="img/laptop.jpg" alt="laptop image" class="ImgFluid" />
+      </div>
+    </section>
+
+    <section class="sections">
+      <div class="paras lefto">
+        <div class="paragraph">
+          <p class="text-big">Get your dream job.</p>
+          <p class="text-small">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum,
+            provident cum adipisci sint officia praesentium illum necessitatibus
+            possimus, ullam ratione natus asperiores consequatur quasi ut, aut
+            facilis! Dolores eaque, similique autem ipsa quaerat cupiditate,
+            fugit totam magnam aspernatur consequuntur nihil illo dolorum
+            tempore, iure quod molestiae in impedit adipisci ullam.
+            Exercitationem officiis illo neque earum.
+          </p>
+        </div>
+        <img src="img/job.jpg" alt="Dream Job you can get" class="ImgFluid" />
+      </div>
+    </section>
+
+    <section class="sections lastsection">
+      <div class="paras">
+        <div class="paragraph">
+          <p class="text-big">Learn and be industry ready.</p>
+          <p class="text-small">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+            laboriosam, culpa doloremque nostrum est quae tenetur illo delectus
+            reiciendis nesciunt nobis reprehenderit? Ullam praesentium
+            laudantium eius facilis nihil possimus labore quam, repudiandae
+            magni eos quisquam? Impedit autem delectus nemo, provident totam
+            repudiandae molestias necessitatibus!
+          </p>
+        </div>
+        <img src="img/read.jpg" alt="Learn and earn image" class="ImgFluid" />
+      </div>
+    </section>
+
+    <section class="contactus" id="contact">
+      <h1 class="CenterHeading">Contact us</h1>
+      <div class="forms">
+        <form action="#" class="linele">
+          <input
+            class="inputt"
+            type="text"
+            placeholder="Enter your name....."
+          />
+          <input
+            class="inputt"
+            type="email"
+            placeholder="Enter your email....."
+          />
+          <input
+            class="inputt"
+            type="password"
+            placeholder="Enter your password....."
+          />
+          <textarea
+          class="inputt"
+          name="text"
+          id="text"
+          cols="30"
+          rows="5"
+          placeholder="Enter your concerns....."
+          ></textarea>
+          <button class="btn btn-submit" type="submit">Submit</button>
+        </form>
+        
+      </div>
+    </section>
+    <footer class="footer-center background">
+      Copyright &copy; - 2022 iEducate - All rights reserved.
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
